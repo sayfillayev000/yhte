@@ -1,0 +1,46 @@
+.lesson__create {
+  max-width: 10000px;
+  max-height: 10000px;
+  width: 100%;
+  height: 100%;
+  background-color: #4d11d8;
+}
+.lesson__header {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  .test__kanes {
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #094ad6;
+    border: none;
+    font-size: 20px;
+  }
+}
+.lesson__section {
+  margin-top: 70px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  .lesson__card {
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

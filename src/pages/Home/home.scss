@@ -1,0 +1,229 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #411de0;
+  padding: 200px 500px;
+}
+.test__info {
+  background-color: aqua;
+  padding: 30px;
+  border-radius: 10px;
+
+  h2 {
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .mavzular {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .btn__box {
+    display: flex;
+    gap: 20px;
+
+    button {
+      width: 300px;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+
+.home__peges {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .home__form {
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .home__select {
+      border-radius: 15px;
+      padding: 15px 30px;
+      outline: none;
+      option {
+      }
+    }
+  }
+
+  .form__submit {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: #000;
+
+    background-color: aqua;
+  }
+
+  .form__submit:hover {
+    background-color: #4988bb;
+  }
+}
+.boglanish{
+  border-radius: 15px;
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .home {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 161px 357px;
+  }
+  .test__info {
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+
+    //   h2 {
+    //     color: #000;
+    //     margin-bottom: 15px;
+    //     text-align: center;
+    //   }
+
+    //   .mavzular {
+    //     display: block;
+    //     width: 100%;
+    //     padding: 15px;
+    //     border: none;
+    //     border-radius: 10px;
+    //     margin-bottom: 20px;
+    //   }
+
+    //   .btn__box {
+    //     display: flex;
+    //     gap: 20px;
+
+    //     button {
+    //       width: 300px;
+    //       padding: 15px;
+    //       border: none;
+    //       border-radius: 10px;
+    //     }
+    //   }
+  }
+
+  // .home__peges {
+  //   position: absolute;
+  //   top: 40%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+
+  //   .home__form {
+  //     border-radius: 15px;
+  //     background-color: #fff;
+  //     margin-top: 100px;
+  //     width: 500px;
+  //     height: 200px;
+  //     padding: 30px;
+  //     display: flex;
+  //     justify-content: space-around;
+  //     align-items: center;
+
+  //     .home__select {
+  //       border-radius: 15px;
+  //       padding: 15px 30px;
+  //       outline: none;
+  //       option {
+  //       }
+  //     }
+  //   }
+
+  //   .form__submit {
+  //     width: 120px;
+  //     height: 40px;
+  //     border-radius: 15px;
+  //     outline: none;
+  //     border: none;
+  //     color: #000;
+
+  //     background-color: aqua;
+  //   }
+
+  //   .form__submit:hover {
+  //     background-color: #4988bb;
+  //   }
+  // }
+}
+@media screen and (max-width: 1280px) {
+  .home {
+    padding: 161px 257px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding: 161px 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 161px 170px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .home {
+    padding: 161px 70px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home {
+    padding: 141px 20px;
+  }
+}
+
+/*
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+ 'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+*/
