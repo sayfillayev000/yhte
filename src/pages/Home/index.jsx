@@ -16,15 +16,6 @@ const index = memo(() => {
     <div className="home">
       <section
         className="test__info"
-        style={{
-          backgroundImage:
-            "url(" +
-            "./" +
-            ")",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
       >
         <h2>
           TA'LIM MUASSASALARIDA AVTOMOBIL HAYDOVCHILARINI TAYYORLASH SIFATINI
